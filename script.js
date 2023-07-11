@@ -19,6 +19,14 @@ lastNameInput.onkeyup = () => {
   lastNameInput.classList.remove("is-valid");
   lastNameInput.classList.remove("is-invalid");
 };
+EmailInput.onkeyup = () => {
+  EmailInput.classList.remove("is-valid");
+  EmailInput.classList.remove("is-invalid");
+};
+passWordInput.onkeyup = () => {
+  passWordInput.classList.remove("is-valid");
+  passWordInput.classList.remove("is-invalid");
+};
 
 submitBtn.onclick = () => {
   let isfirstNameok = false;
